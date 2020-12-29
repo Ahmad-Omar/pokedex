@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #F5DB13;
+    --second-color: #F2B807;
+    --third-color: #F28F16;
+    --light-color: #F6F7F9;
+    --dark-color: #212121;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 576px) {  
+ .wrapper {
+     width: 540px;
+ }
+}
+ 
+@media (min-width: 768px) {  
+    .wrapper {
+        width: 720px;
+    }
+}
+ 
+@media (min-width: 992px) { 
+    .wrapper {
+        width: 960px;
+    }
+}
+ 
+@media (min-width: 1200px) {  
+    .wrapper {
+        width: 1060px;
+    }
+}
+.wrapper {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

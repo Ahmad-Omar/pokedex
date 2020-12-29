@@ -1,0 +1,110 @@
+.pokedex {
+    margin-bottom: 30px;
+}
+.pokedex .pokedex-title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 2.5px;
+}
+.pokedex .pokedex-title span {
+    font-weight: 700;
+}
+.pokedex .input-find {
+    display: block;
+    width: 94%;
+    background-color: #F2F2F2;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 30px;
+    box-shadow: 0px 0px 20px 2px #d8d8d8;
+}
+.pokedex .input-find::placeholder {
+    color: #4b4b4bbe;
+    font-weight: 600;
+}
+.pokedex select {
+    margin: 35px 25px;
+    border: none;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 5px 1px #d8d8d8;
+    width: 110px;
+}
+.pokemons-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+}
+.pokemons-list .pokemon {
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pokemons-list .pokemon .pokemon-details {
+    flex-basis: 35%;
+    position: relative;
+}
+.pokemons-list .pokemon .pokemon-details h4 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.pokemons-list .pokemon .pokemon-details .attack-defense {
+    display: flex;
+    justify-content: center;
+}
+.pokemons-list .attack-defense .attack, 
+.pokemons-list .attack-defense .defense {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+}
+.pokemons-list .attack-defense .attack-value, 
+.pokemons-list .attack-defense .defense-value {
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.pokemons-list .attack-defense .attack-lable, 
+.pokemons-list .attack-defense .defense-lable {
+    font-size: 13px;
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.pokemons-list .grass-poison {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: -48px;
+    bottom: 8px;
+}
+.pokemons-list .grass-poison .grass, 
+.pokemons-list .grass-poison .poison {
+    border-radius: 15px;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+.pokemons-list .grass-poison .grass {
+    background-color: #73D677;
+    box-shadow: inset 0px -2px 0px 0px #5EAF62;
+}
+.pokemons-list .grass-poison .poison {
+    background-color: #07D6F2;
+    box-shadow: inset 0px -2px 0px 0px #06AFC6;
+}
+.pokemons-list .pokemon .pokemon-picture {
+    background-color: #B63428;
+    flex-basis: 65%;
+}

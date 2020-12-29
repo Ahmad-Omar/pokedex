@@ -1,0 +1,20 @@
+.site-footer {
+    padding: 12px 0;
+    /* position: absolute; */
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.site-footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-footer .copyright, .site-footer .custom-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-color)
+}
+.site-footer .custom-link {
+    text-decoration: none;
+}
